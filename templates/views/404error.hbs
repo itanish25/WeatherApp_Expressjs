@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row row_3">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <div class="col-md-12 col-12 main_header_right align-items-center">
+              <figure>
+                <img
+                  src="images/404.png"
+                  alt="tanish"
+                  class="img-fluid img404"
+                  title="Tanish-Weather"
+                />
+              </figure>
+              <p>Welcome to TanishWeather</p>
+              <h1>
+                {{errorMsg}}
+              </h1>
+              <a href="/"><button>Go back</button></a>
+            </div>
+            <!-- right side div -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer code -->
+    {{>footer}}
+  </body>
+</html>
